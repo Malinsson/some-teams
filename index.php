@@ -12,7 +12,7 @@ require_once __DIR__ . '/header.php';
         <p><?= $team['league'] ?></p>
         <p><?= $team['city'] ?></p>
         <p><?= $team['uefa-coefficient-ranking'] ?></p>
-        <p><?= $team['url'] ?></p>
+        <a href="<?= $team['url'] ?>">Link to teams website</a>
         <p>Opponents</p>
         <?php foreach ($team['opponents'] as $opponent): ?>
             <ul>
