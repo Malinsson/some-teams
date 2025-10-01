@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+nav ul {
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 20px;
+    padding: 20px;
+}
+h1 {
+        text-align: center;
+        display: block;
+        padding: 20px;
+        margin-bottom: 20px;
+}
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-card {
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #b5b4b4;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

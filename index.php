@@ -4,24 +4,26 @@ require_once __DIR__ . '/header.php';
 
 ?>
 
+<h1>The UEFA Women's Champions League</h1>
 <main>
-
-    <?php foreach ($teams as $key => $team): ?>
-        <h3><?= $key ?> </h3>
-        <img src="<?= $team['logo'] ?>" alt="The teams logo" width="250">
-        <p><?= $team['league'] ?></p>
-        <p><?= $team['city'] ?></p>
-        <p><?= $team['uefa-coefficient-ranking'] ?></p>
-        <a href="<?= $team['url'] ?>">Link to teams website</a>
-        <p>Opponents</p>
-        <?php foreach ($team['opponents'] as $opponent): ?>
-            <ul>
-                <li><?= $opponent ?></li>
-            </ul>
+    <article class="card-container">
+        <?php foreach ($teams as $key => $team): ?>
+            <article class="team-card">
+                <h2><?= $key ?> </h2>
+                <img src="<?= $team['logo'] ?>" alt="The teams logo" width="250">
+                <p>League: <?= $team['league'] ?></p>
+                <p>City: <?= $team['city'] ?></p>
+                <p>UEFA coefficient ranking: <?= $team['uefa-coefficient-ranking'] ?></p>
+                <p>Opponents</p>
+                <?php foreach ($team['opponents'] as $opponent): ?>
+                    <ul>
+                        <li><?= $opponent ?></li>
+                    </ul>
+                <?php endforeach ?>
+                <a href="<?= $team['url'] ?>">Link to teams website</a>
+            </article>
         <?php endforeach ?>
-
-
-    <?php endforeach ?>
+    </article>
 
 
 </main>
