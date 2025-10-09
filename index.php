@@ -22,7 +22,7 @@ require_once __DIR__ . '/header.php';
                         <li><?= $opponent ?></li>
                     </ul>
                 <?php endforeach ?>
-                <a href="<?= $team['url'] ?>">Link to teams website</a>
+                <a href="<?= $team['url'] ?>" class="button">Read more here</a>
             </article>
         <?php endforeach ?>
     </article>
