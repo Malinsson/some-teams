@@ -1,7 +1,7 @@
 </body>
 <footer>
-    <p>Copywrite Malinsson 2025</p>
-    <a href="index.php">Link back to home</a>
+    <p>&copy; Malinsson <?= date('Y') ?></p>
+    <a href="index.php" class="button">Link back to home</a>
 </footer>
 
 </html>

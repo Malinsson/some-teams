@@ -4,14 +4,15 @@ require_once __DIR__ . '/header.php';
 
 <main>
     <h1>About me</h1>
-    <p class="info">Welcome to this beautiful about me page, prepare to be wow:d!</p>
+    <p class="info">Welcome to the about me page! This page will give you some fun small facts about me, the creator of this wonderful website</p>
     <div class="container">
         <article class="about">
             <h2>Malin Persson</h2>
             <p>League: Not ranked</p>
             <p>City: Vänersborg</p>
             <P>Coffee ranking: 2</P>
-            <p>Opponents</p>
+            <p>Age: 26</p>
+            <p>Opponents:</p>
             <ul>
                 <li>Pollen</li>
                 <li>Spiders</li>
@@ -26,19 +27,20 @@ require_once __DIR__ . '/header.php';
             <p>Jack of all trades, master of none</p>
             <p>If one line could describe me than that would be the one.
                 I have experiance in a lot of areas, learning and trying new things is fun! But fully mastering something?
-                That i have yet to do...
+                That i have yet to do... Maybe this will be a first.
             </p>
             <p>Some of my hobbies include:</p>
             <ul>
+                <li>Coffee</li>
                 <li>Gaming</li>
                 <li>Painting minitures</li>
                 <li>Crocheting</li>
-                <li>Folding origami</li>
-                <li>Coffee</li>
+                <li>Origami</li>
                 <li>Horses</li>
                 <li>Photography</li>
-                <li>Plants and gardening</li>
-                <li>And so on...</li>
+                <li>Plants</li>
+                <li>Old cars</li>
+                <li>The list goes on...</li>
             </ul>
         </article>
     </div>

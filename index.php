@@ -12,7 +12,9 @@ require_once __DIR__ . '/header.php';
         <?php foreach ($teams as $key => $team): ?>
             <article class="team-card">
                 <h2><?= $key ?> </h2>
-                <img src="<?= $team['logo'] ?>" alt="The teams logo">
+                <div class="img-container">
+                    <img src="<?= $team['logo'] ?>" alt="The teams logo">
+                </div>
                 <p>League: <?= $team['league'] ?></p>
                 <p>City: <?= $team['city'] ?></p>
                 <p>UEFA coefficient ranking: <?= $team['uefa-coefficient-ranking'] ?></p>

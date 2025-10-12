@@ -9,21 +9,21 @@ html, body {
     padding: 0;
     background-color: rgb(136, 201, 224);
 }
-nav{
-    background-color: rgb(54, 120, 144);
-    padding: 15px;
-    margin-bottom: 20px;
-
-}
 nav, h1, h2, h3{
     font-family: fantasy;
+}
+nav{
+    background-color: rgb(54, 120, 144);
+    margin-top: 0px;
 }
 nav ul {
     list-style-type: none;
     font-size: 24px;
-    margin: 0;
     display: flex;
     justify-content: center;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 nav ul li {
     padding: 20px;
@@ -63,20 +63,32 @@ h2{
     background-color: white;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
-.team-card:hover {
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-}
-
-.team-card img {
+.img-container{
     width: 280px;
-    max-height: 250px;
-    object-fit: contain;
-    margin: 0 auto;
+    height: 250px;
     display: flex;
+
+}
+.team-card img {
+    object-fit: contain;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.button{
+        background-color: rgb(36, 80, 96);
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 5px;
+}
+.button:hover{
+    background-color: rgb(7, 34, 43);
 }
 .container{
     display: flex;
+    justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 20px;
@@ -89,9 +101,13 @@ h2{
     background-color: white;
     border: 1px solid #b5b4b4;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    min-width: 250px;
 }
 .about{
-    width: 250px;
+    width: 280px;
+}
+.hobbies{
+    max-width: 800px;
 }
 footer{
     background-color: rgb(54, 120, 144);
