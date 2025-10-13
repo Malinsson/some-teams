@@ -10,7 +10,7 @@ html, body {
     background-color: rgb(136, 201, 224);
 }
 nav, h1, h2, h3{
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 nav{
     background-color: rgb(54, 120, 144);
